@@ -15,47 +15,59 @@ const routes = [
     component: DashboardLayout,
     redirect: "/dashboard",
     children: [
-      {
+      { 
+        icon: "dashboard",
         path: "dashboard",
-        name: "Dashboard",
+        name: "矩阵全景",
         component: Dashboard
       },
       {
-        path: "user",
-        name: "User Profile",
-        component: UserProfile
+        icon: "bubble_chart",
+        path: "icons",
+        name: "作业矩阵",
+        component: Icons
       },
+     
       {
+        icon: "content_paste",
         path: "table",
-        name: "Table List",
+        name: "P机阵列",
         component: TableList
       },
       {
+        icon: "library_books",
         path: "typography",
-        name: "Typography",
+        name: "存储阵列",
         component: Typography
       },
+     
       {
-        path: "icons",
-        name: "Icons",
-        component: Icons
+        icon: "notifications",
+        path: "notifications",
+        name: "日志通知",
+        component: Notifications
       },
       {
+        icon: "person",
+        path: "user",
+        name: "用户设置",
+        component: UserProfile
+      },
+
+      {
+        icon: "location_on",
         path: "maps",
-        name: "Maps",
+        name: "全网星罗",
         meta: {
           hideFooter: true
         },
         component: Maps
       },
+
       {
-        path: "notifications",
-        name: "Notifications",
-        component: Notifications
-      },
-      {
+        icon: "dashboard",
         path: "upgrade",
-        name: "Upgrade to PRO",
+        name: "大神战绩",
         component: UpgradeToPRO
       }
     ]
