@@ -11,12 +11,12 @@
           data-background-color="blue"
         >
           <template slot="content">
-            <h4 class="title">Daily Sales</h4>
+            <h4 class="title">每日 plot</h4>
             <p class="category">
               <span class="text-success"
                 ><i class="fas fa-long-arrow-alt-up"></i> 55%
               </span>
-              increase in today sales.
+              比昨天增加
             </p>
           </template>
 
@@ -39,16 +39,16 @@
           data-background-color="red"
         >
           <template slot="content">
-            <h4 class="title">Email Subscription</h4>
+            <h4 class="title">每日任务量</h4>
             <p class="category">
-              Last Campaign Performance
+              整体稳定
             </p>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>access_time</md-icon>
-              updated 10 days ago
+              updated 1 days ago
             </div>
           </template>
         </chart-card>
@@ -63,7 +63,7 @@
           data-background-color="green"
         >
           <template slot="content">
-            <h4 class="title">Completed Tasks</h4>
+            <h4 class="title">每日故障数</h4>
             <p class="category">
               Last Campaign Performance
             </p>
@@ -86,14 +86,14 @@
           </template>
 
           <template slot="content">
-            <p class="category">Revenue</p>
-            <h3 class="title">$34,245</h3>
+            <p class="category">总矩阵算力</p>
+            <h3 class="title">701 TB/D</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>date_range</md-icon>
-              Last 24 Hours
+              更新于：1 分钟前
             </div>
           </template>
         </stats-card>
@@ -107,17 +107,17 @@
           </template>
 
           <template slot="content">
-            <p class="category">Used Space</p>
+            <p class="category">P机在线</p>
             <h3 class="title">
-              49/50
-              <small>GB</small>
+              172/175
+              <small>台</small>
             </h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon class="text-danger">warning</md-icon>
-              <a href="#pablo">Get More Space...</a>
+              <a href="#pablo">2台 掉线</a>
             </div>
           </template>
         </stats-card>
@@ -131,14 +131,14 @@
           </template>
 
           <template slot="content">
-            <p class="category">Fixed Issues</p>
+            <p class="category">待更换硬盘</p>
             <h3 class="title">75</h3>
           </template>
 
           <template slot="footer">
             <div class="stats">
               <md-icon>local_offer</md-icon>
-              Tracked from Github
+              查看具体位置
             </div>
           </template>
         </stats-card>
@@ -148,11 +148,11 @@
       >
         <stats-card data-background-color="blue">
           <template slot="header">
-            <i class="fab fa-twitter"></i>
+            <md-icon>add_task</md-icon>
           </template>
 
           <template slot="content">
-            <p class="category">Folowers</p>
+            <p class="category">新增算例</p>
             <h3 class="title">+245</h3>
           </template>
 
